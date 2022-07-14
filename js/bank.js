@@ -13,14 +13,13 @@
 
 // })
 
-document.getElementById('login-submit').addEventListener('click', function () {
-    const userEmail = document.getElementById('user-email').value
-    const userPassword = document.getElementById('user-password').value
+document.getElementById("login-submit").addEventListener("click", function () {
+  const userEmail = document.getElementById("user-email").value;
+  const userPassword = document.getElementById("user-password").value;
 
-    if (userEmail == 'alamin@gmail.com' && userPassword == 'alamin') {
-        window.location.href = 'banking.html'
-    }
-    else {
-        console.log('Password is incorrect')
-    }
-})
+  if (userEmail === "alamin@gmail.com" && userPassword === "alamin") {
+    window.location.href = "banking.html";
+  } else {
+    console.log("Password is incorrect");
+  }
+});
